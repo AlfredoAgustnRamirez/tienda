@@ -1,0 +1,622 @@
+ERROR - 2022-07-23 08:51:45 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-07-23 08:51:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\RamirezAlfredo-P1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\RamirezAlfredo-P1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\RamirezAlfredo-P1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\RamirezAlfredo-P1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\RamirezAlfredo-P1\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\RamirezAlfredo-P1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RamirezAlfredo-P1\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 11:22:19 --> Invalid file: front/footer.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/footer.ph...')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/footer', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\Home.php(112): view('front/footer')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 11:22:43 --> Invalid file: front/footer.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/footer.ph...')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/footer', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\Home.php(112): view('front/footer')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 11:24:33 --> Invalid file: front/body.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/body.php')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/body', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\Home.php(30): view('front/body')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 12:11:05 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(109): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:12:05 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(29): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:12:07 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(29): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:12:09 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(29): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:12:21 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(29): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:12:40 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(29): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:13:33 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:14:57 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:16:46 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:17:39 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:19:04 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:21:33 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:22:07 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:24:56 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:25:04 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:25:49 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:25:53 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:29:27 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\LoginController.php(19): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\LoginController->inicio()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:39:59 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:42:27 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:43:31 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:43:32 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:43:35 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:43:50 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:44:43 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:44:45 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:46:05 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\LoginController.php(19): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\LoginController->inicio()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:48:36 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:49:04 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 12:49:08 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(48): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 13:13:03 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\UsuarioController.php(19): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\UsuarioController->create()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 15:01:14 --> Invalid file: front/body.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/body.php')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/body', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(47): view('front/body')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 15:01:40 --> Invalid file: front/body.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/body.php')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/body', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(47): view('front/body')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 15:12:39 --> Invalid file: front/login.php
+#0 C:\xampp\htdocs\tienda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/login.php')
+#1 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/login', Array, true)
+#2 C:\xampp\htdocs\tienda\app\Controllers\LoginController.php(24): view('front/login')
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\LoginController->inicio()
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-23 15:30:17 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\LoginController.php(23): view('front/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\LoginController->inicio()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-23 16:14:35 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2022-07-23 16:14:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\tienda\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\tienda\app\Controllers\CrudController.php(87): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser()
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-23 16:15:03 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2022-07-23 16:15:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\tienda\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\tienda\app\Controllers\CrudController.php(87): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser()
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-23 16:15:23 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2022-07-23 16:15:23 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\tienda\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\tienda\app\Controllers\CrudController.php(86): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser()
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-23 16:15:57 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2022-07-23 16:15:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\tienda\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\tienda\app\Controllers\CrudController.php(86): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser()
+#3 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#4 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 16:19:29 --> Undefined variable: session
+#0 C:\xampp\htdocs\tienda\app\Views\usuario\editnames.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('usuario/editnam...', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\CrudController.php(90): view('usuario/editnam...', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CrudController->singleUser()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:26:57 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:27:14 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:28:01 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:29:34 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:32:15 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:33:05 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:33:49 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:34:52 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:35:10 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:35:28 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:35:58 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:36:13 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:36:17 --> Undefined variable: cart
+#0 C:\xampp\htdocs\tienda\app\Views\front\menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('front/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ProductoController.php(40): view('front/menu', Array)
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ProductoController->mostrar_todos()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-23 16:46:31 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\tienda\app\Views\usuario\menu.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('usuario/menu', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\ConsultaController.php(118): view('usuario/menu')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->verificar_consulta()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

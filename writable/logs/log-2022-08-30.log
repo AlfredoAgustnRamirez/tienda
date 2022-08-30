@@ -1,0 +1,37 @@
+ERROR - 2022-08-30 12:35:18 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-08-30 12:35:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tienda\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tienda\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tienda\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\tienda\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-30 12:46:53 --> Undefined property: CodeIgniter\View\View::$cart
+#0 C:\xampp\htdocs\tienda\app\Views\carrito\mostrar_carrito.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('carrito/mostrar...', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\CarritoController.php(39): view('carrito/mostrar...')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CarritoController->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-30 12:49:50 --> Undefined property: CodeIgniter\View\View::$cart
+#0 C:\xampp\htdocs\tienda\app\Views\carrito\mostrar_carrito.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\tienda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tienda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tienda\system\Common.php(1089): CodeIgniter\View\View->render('carrito/mostrar...', Array, true)
+#4 C:\xampp\htdocs\tienda\app\Controllers\CarritoController.php(39): view('carrito/mostrar...')
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(832): App\Controllers\CarritoController->index()
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
